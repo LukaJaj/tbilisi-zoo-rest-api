@@ -26,7 +26,6 @@ res.send(data);
 
 app.get('/api/animal/:id',(req,res)=>{
 const animal= data.find(o=>o.id===parseInt(req.params.id));
-
 if(!animal){
     res.status(200).send('Cant find object with given id');
 }
