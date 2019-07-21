@@ -1,5 +1,5 @@
 
-/**
+/*
   TODO: Implement POST/DELETE requests
  */
 
